@@ -95,7 +95,7 @@ def load_data(city, month, day):
 
     return df
 
-
+# TO DO: display selected filter options
 def print_filter(city, month, day, get_filter):
     print('FILTER BY: ', city.upper())
     if get_filter in ('both', 'month'):
