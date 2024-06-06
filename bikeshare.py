@@ -201,7 +201,7 @@ def user_stats(df, city, month, day, get_filter):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
+# TO DO: Display 5 rows of raw data for each time user type "yes"
 def display_data(df):
     """Displays raw data upon request by the user."""
     start = 0
